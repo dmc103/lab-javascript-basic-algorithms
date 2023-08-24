@@ -1,8 +1,8 @@
 // Iteration 1: Names and Input
 const hacker1 = "Zeynep";
 const hacker2 = "Doreen";
-//console.log ("The driver's name is", hacker1);
-//console.log (`The navigator's name is ${hacker2}`);
+console.log ("The driver's name is", hacker1);
+console.log (`The navigator's name is ${hacker2}`);
 
 
 
@@ -22,4 +22,7 @@ if (hacker1Length > hacker2Length) {
 
 
 // Iteration 3: Loops
-
+//3.1
+console.log (hacker1.toUpperCase().split ('').join(' '));
+//3.2
+console.log (hacker2.split('').reverse().join(''));
