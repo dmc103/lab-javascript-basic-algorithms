@@ -39,6 +39,14 @@ console.log (hacker1Modified);
 
 //3.2
 
+let hacker2Reverse = "";
+
+for (let i = hacker2.length -1; i >= 0; i--) {
+    hacker2Reverse += hacker2[i];
+}
+
+console.log (hacker2Reverse);
+
 
 
 //console.log (hacker2.split('').reverse().join(''));
