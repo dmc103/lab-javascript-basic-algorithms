@@ -23,6 +23,22 @@ if (hacker1Length > hacker2Length) {
 
 // Iteration 3: Loops
 //3.1
-console.log (hacker1.toUpperCase().split ('').join(' '));
+let hacker1Modified = " ";
+
+for (let i = 0; i < hacker1.length ; i++) {
+    if (i > 0) {
+        hacker1Modified += " ";
+    }
+    hacker1Modified += hacker1[i].toUpperCase();
+} 
+
+console.log (hacker1Modified);
+
+
+//console.log (hacker1.toUpperCase().split ('').join(' '));
+
 //3.2
-console.log (hacker2.split('').reverse().join(''));
+
+
+
+//console.log (hacker2.split('').reverse().join(''));
